@@ -1,0 +1,74 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Jupyter Notebooks Checkpoints
+.ipynb_checkpoints/
+
+# Virtual environment
+.venv/
+env/
+ENV/
+mlruns/
+
+# VSCode or IDE specific
+.vscode/
+.idea/
+
+# OS generated
+.DS_Store
+Thumbs.db
+
+# Data & Artifacts
+data/
+datasets/
+artifacts/
+inputs/
+outputs/
+metrics/
+params/
+tags/
+runs/
+explanations/
+trash/
+*_trash/
+arcwvezip/
+*.zip
+*.tar.gz
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.sav
+*.rds
+
+# Pipelines & deployment
+# run_pipeline.py
+# run_deployment.py
+# deployment_pipeline.py
+# dynamic-importer.py
+# model-loader.py
+# predictor.py
+
+# Conda or Poetry or Pip related
+*.lock
+conda.yaml
+*.yml
+*.yaml
+# requirements*.txt
+
+# Logs and metadata
+*.log
+*.tmp
+*.bak
+meta-*.yaml
+meu*.yaml
+
+# Other unwanted characters or temp
+*%*
+*ä*
+*—*
+*'*
